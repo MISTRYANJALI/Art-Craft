@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abg"
+    android:orientation="vertical"
+    android:scrollbarSize="6dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/textart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            android:padding="8dp"
+            android:text="About Us"
+            android:textColor="#EDE8E8"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtabout"
+            android:layout_width="317dp"
+            android:layout_height="527dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="serif"
+            android:text="This app Developed by Anjali Mistry and komal Lad under the supervision of Prof.Hemina Bhavsar. We Have developed Art and Crafts Application using Java and Advanced image Processing
+Arts and crafts describes a wide variety of activities involving making things with one's own hands. Arts and crafts is usually a hobby. Both children and adults enjoy arts and crafts. Children in schools may learn skills such as woodworking, wood carving, sewing, or making things with all sorts of material.
+"
+            android:textColor="#090101"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
